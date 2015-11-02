@@ -4,12 +4,12 @@ class Webmaster
 {
     private $client_email;
     private $private_key;
-    private $scope;
+    private $scopes;
     private $credentials;
 
-    public function __construct() {
-        $this->client_email = '681219933803-um3geotp505pab1b91cj7r7npamh6nsn@developer.gserviceaccount.com';
-        $this->private_key = file_get_contents(__DIR__.'/../config/API Project-c37d185c9cf9.p12');
+    public function __construct($client_email, $private_key) {
+        $this->client_email = $client_email;
+        $this->private_key = $private_key;
         $this->scopes = array(Google_Service_Webmasters::WEBMASTERS_READONLY);
 
         $this->credentials = new Google_Auth_AssertionCredentials(
