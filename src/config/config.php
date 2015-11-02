@@ -26,8 +26,7 @@ return array(
     | xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@developer.gserviceaccount.com
     |
     */
-    //'service_email'    => 'xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@developer.gserviceaccount.com',
-    'service_email'    => '681219933803-um3geotp505pab1b91cj7r7npamh6nsn@developer.gserviceaccount.com',
+    'service_email'    => 'xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@developer.gserviceaccount.com',
     /*
     |--------------------------------------------------------------------------
     | Path to the .p12 certificate
@@ -40,6 +39,5 @@ return array(
     | readable by others.
     |
     */
-    //'certificate_path' => __DIR__ . '/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-privatekey.p12'
-    'certificate_path' => __DIR__ . '/API Project-c37d185c9cf9.p12'
+    'certificate_path' => __DIR__ . '/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-privatekey.p12'
 );
