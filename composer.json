@@ -1,0 +1,18 @@
+{
+  "name": "raymondTheDev/php-webmaster-tools",
+  "description": "Search Console API (Webmaster Tools API) PHP Wrapper",
+  "license": "GNU GENERAL PUBLIC LICENSE Version 2",
+  "authors": [
+    {
+      "name": "Raymond Rosario",
+      "email": "raymond.the.dev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src"]
+  },
+  "require": {
+    "google/apiclient" : "1.1.*"
+  }
+}
